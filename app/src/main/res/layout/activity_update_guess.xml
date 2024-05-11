@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateGuess"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/has_guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/update_guess"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/home_goals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/has_guess"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/away_goals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/home_goals"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/update_guess_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_guess_button"
+        android:layout_below="@id/away_goals"
+        android:layout_centerHorizontal="true"
+        android:onClick="updateGuess"
+        />
+
+    <Button
+        android:id="@+id/delete_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_guess"
+        android:layout_below="@id/update_guess_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="deleteGuess"
+        />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_below="@id/delete_guess"
+        android:layout_centerHorizontal="true"
+        android:onClick="cancel"/>
+
+</RelativeLayout>

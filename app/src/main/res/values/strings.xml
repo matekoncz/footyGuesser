@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FootyGuesser</string>
+    <string name="welcomeText">Welcome to FootyGuesser!</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="continue_as_guest">Continue as guest</string>
+    <string name="or">Or</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="enter_email">Enter your email address</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="passwords_do_not_match">The passwords don\'t match</string>
+    <string name="missing_inputs">Please fill all inputs</string>
+    <string name="failed_to_sign_in">failed to create user</string>
+    <string name="failed_to_login">password and email don\'t match</string>
+    <string name="home">Home</string>
+    <string name="matches_title">Upcomming matches</string>
+    <string name="edit_my_guess">edit my guess</string>
+    <string name="no_guess_yet">Looks like you didn\'t guess the outcome of this match. Would you like to?</string>
+    <string name="create_guess">create guess</string>
+    <string name="cancel">cancel</string>
+    <string name="update_guess">You already guessed the outcome of this match. Would you like to change it? You can still do it before the matchday</string>
+    <string name="update_guess_button">update guess</string>
+    <string name="delete_guess">delete guess</string>
+</resources>

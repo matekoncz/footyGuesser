@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555691473848",
+    "project_id": "android-footy",
+    "storage_bucket": "android-footy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555691473848:android:6bb47fdf0ef11436e0ed4d",
+        "android_client_info": {
+          "package_name": "com.example.footyguesser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVoa9kQUoKpe6L_iKJGlR1e41g_s1a1wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
